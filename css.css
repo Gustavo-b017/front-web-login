@@ -1,0 +1,48 @@
+body {
+  background: rgb(226, 226, 226);
+}
+
+.container {
+  border: 1px solid rgb(25 29 107);
+  max-width: 400px ;
+  margin: 100px auto;
+  text-align: center;
+  background: #fff;
+
+  border-radius: 10px;
+}
+
+.form-control {
+  margin: 20px;
+}
+
+.form-control input[type="text"],
+
+.form-control input[type="password"] {
+  width: 40%;
+  padding: 1px 1px;
+  padding-left: 5px;
+  font-size: small;
+  border: 1 px solid gray;
+  
+  border-radius: 5px;
+
+  outline: 0;
+}
+
+.button {
+  margin-bottom: 10px;
+  background: rgb(5, 1, 54);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  text-align: left;
+  margin-left: 32px;
+  transition: all 0.2s;
+}
